@@ -5,15 +5,15 @@ This is the final assignment for the System Programming Lab course in the Open U
 This repository contains an assembler tool designed to process assembly code written in a specific format and generate corresponding machine code. The tool operates in four main phases: preprocessing, first pass, second pass, and translation.
 
 
-# Input and Output
+# Input Format
 The input for the assembler is a text file with a ".as" extension. The file contains assembly code divided into two main parts: instructions and declarations.
 The assembler reads assembly code from files with a ".as" extension. It supports various instructions and declarations.
 
+# Output Format
 A ".am" file after preprocessing.
 A ".ob" file containing the translated machine code in base 64 encoding.
 An ".ext" file tracking lines with external label usage.
 An ".ent" file listing locations with entry label declarations.
-# Input Format
 
 # Phase 1: Preprocessing
 The assembler begins by processing any macros defined between "mcro" and "endmcro" markers.
