@@ -49,7 +49,7 @@ The machine's memory starts at address 100 and has a total of 1023 cells.
 # Getting Started
 Clone this repository to your local machine.
 Ensure you have a C compiler
-Place customized assembly code in files with the ".as" extension. (details below)
+Place customized assembly code in root folder with the ".as" extension  (testfiles provided in repository).
 Run the assembler program to process your code and generate output files.
 
 # Usage
@@ -64,3 +64,4 @@ Dor Varsulker
 
 
 # Additional Info
+-Inside the repository/tests you can see various examples of assembly files, either valid or incorrect.
