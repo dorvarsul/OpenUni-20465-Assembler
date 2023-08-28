@@ -35,11 +35,6 @@ The resulting base 64 encoded machine code is written to a new ".ob" file.
 The ".ob" file begins with a header indicating the number of instruction lines and data lines.
 
 
-# Additional Output Files
-An ".ext" file is generated to track the lines where external labels are used in instructions.
-An ".ent" file is created to keep track of locations where entry labels are declared.
-
-
 # Configuration
 A word in the machine language is represented by 12 bits, and data is also represented using 12 bits.
 The machine's memory starts at address 100 and has a total of 1023 cells.
@@ -64,4 +59,4 @@ Dor Varsulker
 
 
 # Additional Info
--Inside the repository/tests you can see various examples of assembly files, either valid or incorrect.
+Inside the repository/tests you can see various examples of assembly files, either valid or incorrect.
