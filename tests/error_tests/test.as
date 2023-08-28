@@ -1,0 +1,9 @@
+.entry A, B, C
+mov @r1, @r8
+lea A, @r3
+dec @r4
+.extern A
+cmp D, @r1
+cmp F, @r2
+.string "hello""
+.data 200000, a
