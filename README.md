@@ -50,12 +50,12 @@ constants.h and globals.h are shared public variables.
 
 # Getting Started
 Clone this repository to your local machine.
-Ensure you have a C compiler
+Ensure you have a C compiler.
 Place customized assembly code in root folder with the ".as" extension  (testfiles provided in repository).
 Run the assembler program to process your code and generate output files.
 
-# Usage
-Execute the assembler using the command: ./assembler <input_file>
+# Running program
+Execute the assembler using the command in commandline: ./assembler <input_file>
 The processed code will be saved as "<input_file>.am".
 Translated machine code will be saved in "<input_file>.ob".
 External label usage will be tracked in "<input_file>.ext".
