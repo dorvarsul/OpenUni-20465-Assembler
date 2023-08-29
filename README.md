@@ -40,7 +40,7 @@ The machine supports assembly instruction using registers, labels and integers.
 The machine's memory starts at address 100 and has a total of 1023 cells.
 
 # Project Structure
-main-c is the entry point to the program
+main-c is the entry point to the program.
 parser.c is responsible for the overall management of preproccessor, first phase and second phase.
 lexer.c and translator.c are helper files responsible for ensuring proper syntax of source code and translation to machine code.
 writer.c and reader.c are responsible for the proper reading of input files and writing output files.
